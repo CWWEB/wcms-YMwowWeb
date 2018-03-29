@@ -19,5 +19,8 @@
 (The GNU License)
 
 		= YMWoW Project -- General information =
+		
+		
+		衣米魔兽: https://wow.ymisc.com 开设于2012年。到目前为止已持续开放6年了！
 
 	Copyright (C) 2018 (https://wow.ymisc.com) wow.ymisc.com
