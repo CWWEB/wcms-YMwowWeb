@@ -1,4 +1,4 @@
-# ![logo](https://wow.ymisc.com/logo.gif) YmWoW
+# ![logo](https://wow.ymisc.com/images/logo.gif) YmWoW
 
 
 [![衣米魔兽](https://scan.coverity.com/projects/3899/badge.svg)](https://wow.ymisc.com/) 
