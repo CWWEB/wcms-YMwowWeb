@@ -2,11 +2,11 @@
 require('mysql.class_pve.php');
 class Configuration
 {
-    private $_dbHost = "127.0.0.1";
+    private $_dbHost = "106.15.178.152";
     private $_dbUser = "root";
     private $_dbPass = "wt6655951";
     
-    private $_dbName = array("Character" => array("characters_pve"),"World" => "world","Realm" => "auth");
+    private $_dbName = array("Character" => array("char_wlk"),"World" => "world_wlk","Realm" => "auth");
     
     public function getOption($name)
     {

@@ -1,5 +1,5 @@
 <?php
-//require('bootstrap.class_pve.php');
+//require('bootstrap.class.php');
 class DB_Store
 {
     private $_configuration;
@@ -48,7 +48,7 @@ class DB_Store
                 $loginDetails["World"] = $this->_configuration->getDBName("World");
                 $this->_registerDB(new World_Database($loginDetails)); 
             }elseif($i == 1){
-                $loginDetails["Realm"] = $this->_configuration->getDBName("auth");
+                $loginDetails["Realm"] = $this->_configuration->getDBName("Realm");
                 $this->_registerDB(new Realm_Database($loginDetails));
             }elseif($i == 2){
                 $tmp = $this->_configuration->getDBName("Character");
@@ -222,11 +222,11 @@ class Character_Database extends MySQL
 	
 	public function getEquipedItems($Guid)
 	{
-		$itemsRaw = $this->fetchResult($this->getInstance()->query("SELECT item_template,slot FROM `character_inventory` WHERE guid=".$this->makeArgumentsSafe($Guid)." AND slot <= 18 AND bag = 0 ORDER BY slot"));
+		$itemsRaw = $this->fetchResult($this->getInstance()->query("SELECT itemEntry,slot FROM `item_instance` INNER JOIN `character_inventory` ON `character_inventory`.`item`=`item_instance`.`guid` WHERE owner_guid=".$this->makeArgumentsSafe($Guid)." AND slot <= 18 AND bag = 0 ORDER BY slot"));
         $items = array();
         foreach($itemsRaw as $item)
         {
-            if(!in_array($item["item_template"],$itemsRaw))
+            if(!in_array($item["itemEntry"],$itemsRaw))
             {
                 $items[$item["slot"]] = $item;
             }
@@ -246,7 +246,7 @@ class Character_Database extends MySQL
 	
 	public function getInfoFor($Guid)
 	{
-		$character = $this->prepareStatement("SELECT name,race,class,gender,level,health,power1,power2,power4,power5 FROM `characters` WHERE guid=?",$Guid);
+		$character = $this->prepareStatement("SELECT name,race,class,gender,level,health,power1,power2,power4,power5,power6,power7 FROM `characters` WHERE guid=?",$Guid);
 		$character->execute();
 		return $this->fetchResult($character);
 	}
@@ -287,8 +287,8 @@ class World_Database extends MySQL
 	public function getItemInfo($itemId)
 	{
 		$secure = $this->makeArgumentsSafe($itemId);
-		$item_template = $this->getInstance()->query("SELECT entry,name,displayid,Quality,InventoryType FROM `item_template` WHERE entry=".$secure);
-		return $this->fetchResult($item_template);
+		$itemEntry = $this->getInstance()->query("SELECT entry,name,displayid,Quality,InventoryType FROM `item_template` WHERE entry=".$secure);
+		return $this->fetchResult($itemEntry);
 	}
 }
 ?>

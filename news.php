@@ -7,7 +7,9 @@ require_once("configs.php");
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
- <html>
+
+<html xmlns:wb="http://open.weibo.com/wb">
+ 
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="/s7.addthis.com/static/r07/widget49.css" media="all" />
@@ -26,6 +28,9 @@ require_once("configs.php");
 <script src="wow/static/local-common/js/core.js?v15"></script>
 <script src="wow/static/local-common/js/tooltip.js?v15"></script>
 <script src="http://wowdb.games.sina.com.cn/js/tips.js"></script>
+
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
 <!--[if IE 6]> <script type="text/javascript">
 //<![CDATA[
 try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
@@ -186,7 +191,11 @@ _gaq.push(['_trackPageview']);
 												<a class="addthis_button_digg at300b" href="http://www.addthis.com/bookmark.php?v=250&amp;winname=addthis&amp;pub=blizzardwebteam&amp;source=tbx-250&amp;lng=en-US&amp;s=digg&amp;url=http%3A%2F%2Feu.battle.net%2Fwow%2Fen%2Fblog%2F2192483%23blog&amp;title=Memories%20of%20Blizzard%20Video%20Contest%20Entries%20Closed%20-%20World%20of%20Warcraft&amp;ate=AT-blizzardwebteam/-/-/4daf164f55138edd/4&amp;uid=4daf164f14677003&amp;CXNID=2000001.5215456080540439074NXC&amp;pre=http%3A%2F%2Feu.battle.net%2Fwow%2Fen%2F&amp;tt=0" target="_blank" title="Digg This"><span class="at300bs at15nc at15t_digg"></span></a>
 											<div class="atclear"></div></div>-->
 											<!-- ADDTHIS BUTTON END -->
-											<div class="fb-like" data-href="http://www.facebook.com/pages/WoWFailureCMS/141791002519526?ref=ts" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+											
+											
+											<wb:follow-button uid="1203969070" type="red_4" width="100%" height="64" ></wb:follow-button>
+											
+											
 										</div>';
 										$show_comment=true;
 										}

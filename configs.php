@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!isset($_SESSION)) session_start();
 
 # Languages ############
@@ -18,7 +18,7 @@ $_SESSION['Local'] = $language;
 
 # Mysql ################
 
-$serveraddress = "127.0.0.1";
+$serveraddress = "106.15.178.152";
 $serveruser = "root";
 $serverpass = "wt6655951";
 $serverport	= "3306";
@@ -27,14 +27,14 @@ $server_db = "website";
 $server_adb = "auth";
 
 $server_cdb = "characters_pvp";
-$server_wdb = "world";
+$server_wdb = "worlds";
 
 ######################
 
 
 # Extra ################
 
-$website['realm'] = "衣米魔兽";
+$website['realm'] = "1";
 $name_realm1['realm'] = "艾泽拉斯";
 $mysql_cod = 'cp1251';
 
@@ -48,7 +48,7 @@ $comun_link['Youtube'] = "http://www.youtube.com/";              // Your adress 
 
 $website['title'] = "衣米魔兽";
 $website['slogan'] = "真正的纯公益魔兽世界服务器!";
-$website['address'] = "http://wow.ymisc.com";
+$website['address'] = "https://wow.ymisc.com";
 $website['root'] = "/";
 
 ######################

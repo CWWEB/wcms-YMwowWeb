@@ -238,7 +238,7 @@ tr:hover .fansite-link,
 #header { padding-top: 26px; }
 #header #logo { height: 115px }
 #header #logo a { width: 275px; height: 115px; display: block; border: none; text-indent: -9999px }
-#header .header-plate { height: 93px; position: relative; }
+#header .header-plate { height: 76px; position: relative; }
 #header .user-plate { color: #fff; width: 355px; height: 84px; position: absolute; right: 3px; bottom: 1px; }
 .ie6 #header .user-plate { right:2px }
 
@@ -328,7 +328,7 @@ tr:hover .fansite-link,
 .search .summary .suggested-results .result a { font-weight: normal; }
 
 /* menu */
-#menu { width: 623px; height: 65px; position: absolute; left: 19px; top: 19px; -moz-user-select: none; -webkit-user-select: none; user-select: none; background-image: url("../images/layout/menu-tab-baked.jpg?v=2"); }
+#menu { width: 623px; height: 65px; position: absolute; left: 19px; top: 0px; -moz-user-select: none; -webkit-user-select: none; user-select: none; background-image: url("../images/layout/menu-tab-baked.jpg?v=2"); }
 #menu li { width: 102px; float: left; height: 65px; }
 #menu li a { height: 65px; display: block; text-align: center; text-transform: uppercase; color: #ffa400 }
 #menu li a span { padding-top: 45px; display: block; font: normal 12px Arial, Verdana, serif; text-shadow: #000 0 0 5px; position: relative; top: -5px }

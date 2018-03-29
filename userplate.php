@@ -199,7 +199,7 @@ if (!isset($_SESSION['username'])) {
                                                     if (!$world)
                                                     echo ' down';
 
-                                                    echo '">' . $realm['name'] . '</span>';
+                                                   // echo '">' . $realm['name'] . '</span>';
                                                     }
                                                 }
                                             }

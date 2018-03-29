@@ -96,8 +96,8 @@ class Armory_Character extends Armory
     	
 	public function __construct($name)
 	{
-		$this->setCharDb(new Character_Database(array('host' => '127.0.0.1','username' => 'root','password'=>'wt6655951',ucfirst('character') => 'characters_pve')));
-		$this->setWorldDb(new World_Database(array('host' => '127.0.0.1','username' => 'root','password'=>'wt6655951',ucfirst('world') => 'world')));
+		$this->setCharDb(new Character_Database(array('host' => '61.183.189.178','username' => 'root','password'=>'wt6655951',ucfirst('character') => 'characters_pve')));
+		$this->setWorldDb(new World_Database(array('host' => '61.183.189.178','username' => 'root','password'=>'wt6655951',ucfirst('world') => 'worlds')));
 		$this->setObjectId($this->getCharDb()->getGuidByName($name));
 		$this->setObjectInfo($this->getCharDb()->getInfoFor($this->getObjectId()));
 		$this->setStatInfo($this->getCharDb()->getStats($this->getObjectId())); //Add to get stats for armory

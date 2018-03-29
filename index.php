@@ -22,11 +22,10 @@ $page_cat = "home";
 	<link rel="stylesheet"  href="wow/static/css/status.css?v1">
 	<link rel="stylesheet"  href="wow/static/local-common/css/cms/cms-common.css?v15">
 	<link rel="stylesheet"  href="wow/static/css/cms.css?v4">
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="wow/static/local-common/js/jquery-1.10.1.min.js"></script>
 	<script src="wow/static/local-common/js/third-party/jquery-1.4.4-p1.min.js"></script>
 	<script src="wow/static/local-common/js/core.js?v15"></script>
 	<script src="wow/static/local-common/js/tooltip.js?v15"></script>
-	<script src="http://wowdb.games.sina.com.cn/js/tips.js"></script> 
 	<!--[if IE 6]> <script type="text/javascript">
 	//<![CDATA[
 	try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}

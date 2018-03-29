@@ -1,4 +1,4 @@
-<div class="wrapper">
+﻿<div class="wrapper">
 <div id="footer">
 <div id="sitemap">
 <div class="column">
@@ -167,7 +167,8 @@ echo '>'
 <small><?php echo $copyright3['copyright3']; ?>.<br /><?php echo $copyright['copyright']; ?> - <?php echo date('Y'); ?> <?php echo $website['title']; ?>.<br /><?php echo $copyright4['copyright4']; ?></small>
 </center>
 </div>
-<center><a class="powered" href="http://www.YmiSc.com/" ></a></center>
+<center><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272369662'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1272369662%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+<a class="powered" href="http://www.YmiSc.com/" ></a></center>
 </div>
 <span class="clear"><!-- --></span>
 </div>
@@ -252,7 +253,7 @@ shim.style.display = 'block';
 <strong class="explore-caption"><?php echo $Donate['Donate']; ?></strong>
 <?php echo $Donate1['Donate1']; echo $website['title']; ?>.
 </a>
-</li>
+</li> 	
 </ul>
 <div class="explore-links">
 <h2 class="explore-caption"><?php echo $More['More']; ?></h2>
@@ -260,6 +261,7 @@ shim.style.display = 'block';
 <li><a href="#" tabindex="55"><?php echo $Retrieve['Retrieve']; ?></a></li>
 <li><a href="#" tabindex="55"><?php echo $Client_down3['Client_down3']; ?></a></li>
 </ul>
+
 </div>
 <span class="clear"><!-- --></span>
 <!--[if IE 6]> <iframe id="explore-shim" src="javascript:false;" frameborder="0" scrolling="no" style="display: block; position: absolute; top: 0; left: 9px; width: 409px; height: 400px; z-index: -1;"></iframe>
@@ -414,20 +416,24 @@ Menu.initialize('<?php echo $website['root'];?>data/menu.json');
 $('.png-fix').pngFix(); //]]>
 </script>
 <![endif]-->
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-var ga = document.createElement('script');
-var src = "https://ssl.google-analytics.com/ga.js";
-if ('http:' == document.location.protocol) {
-src = "http://www.google-analytics.com/ga.js";
-}
-ga.type = 'text/javascript';
-ga.setAttribute('async', 'true');
-ga.src = src;
-var s = document.getElementsByTagName('script');
-s = s[s.length-1];
-s.parentNode.insertBefore(ga, s.nextSibling);
-})();
-//]]>
-</script>
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+var head = document.getElementsByTagName("head")[0] || document.documentElement; 
+var script = document.createElement("script"); 
+script.src = gaJsHost + "google-analytics.com/ga.js"; 
+
+var done = false; // 防止onload，onreadystatechange同时执行 
+// 加载完毕后执行，适应所有浏览器 
+script.onload = script.onreadystatechange = function() { 
+if (!done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")){ 
+done = true; 
+try { 
+var pageTracker = _gat._getTracker("UA-123456-16"); 
+pageTracker._trackPageview(); 
+} catch(err) {} 
+script.onload = script.onreadystatechange = null; 
+} 
+}; 
+head.insertBefore(script,head.firstChild); 
+</script> 

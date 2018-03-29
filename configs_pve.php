@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!isset($_SESSION)) session_start();
 
 # Languages ############
@@ -18,7 +18,7 @@ $_SESSION['Local'] = $language;
 
 # Mysql ################
 
-$serveraddress = "127.0.0.1";
+$serveraddress = "106.15.178.152";
 $serveruser = "root";
 $serverpass = "wt6655951";
 $serverport	= "3306";
@@ -27,7 +27,7 @@ $server_db = "website";
 $server_adb = "auth";
 
 $server_cdb = "characters_pve";
-$server_wdb = "world";
+$server_wdb = "worlds";
 
 ######################
 
@@ -48,7 +48,7 @@ $comun_link['Youtube'] = "http://www.youtube.com/";            // Your adress of
 
 $website['title'] = "洛丹伦王国";
 $website['slogan'] = "真正的纯公益魔兽世界服务器!";
-$website['address'] = "http://wow.ymisc.com";
+$website['address'] = "https://wow.ymisc.com";
 $website['root'] = "/";
 
 ######################

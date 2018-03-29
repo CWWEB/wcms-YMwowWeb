@@ -1,0 +1,119 @@
+
+<!--{template common/header}-->
+<!--[name]新锐创想WOW文章列表页[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em>
+		<a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em>
+		<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+		$cat[catname]
+	</div>
+	<div class="y">
+		<!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="rss" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}-->
+	</div>
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=fullAd]--><div id="fullAd" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="ct2 wp cl">
+	<div class="mn">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+		<div class="xr_article_list">
+			<div class="title">
+				<h1 class="z">$cat[catname]</h1>
+				<span class="y">
+					<!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
+					<a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" target="_blank" class="post_btn">{lang article_publish}</a>
+					<!--{/if}-->
+				</span>
+			</div>
+			<!--{if $cat[subs]}-->
+			<div class="subMenu">
+				{lang sub_category}:&nbsp;&nbsp;
+				<!--{eval $i = 1;}-->
+				<!--{loop $cat[subs] $value}-->
+				<!--{if $i != 1}--><span class="pipe">|</span><!--{/if}--><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a><!--{eval $i--;}-->
+				<!--{/loop}-->
+			</div>
+			<!--{/if}-->
+			<div class="xld">
+				<ul>
+				<!--{loop $list['list'] $value}-->
+				<!--{eval $highlight = article_title_style($value);}-->
+				<!--{eval $article_url = fetch_article_url($value);}-->
+				<li <!--{if !$value[pic]}-->class="nopic"<!--{/if}--> >
+					<!--{if $value[pic]}-->
+						<div class="atc"><a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn" /></a></div>
+					<!--{/if}-->
+					<h3><a href="$article_url" target="_blank" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></h3>
+					<div class="info">$value[summary]</div>
+					<div class="attr">
+						<!--{if $value[catname] && $cat[subs]}-->{lang category}: <label><a href="{$portalcategory[$value['catid']]['caturl']}" >$value[catname]</a></label>&nbsp;&nbsp;<!--{/if}-->
+						<span> $value[dateline]</span>
+						<!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $value['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $value['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}-->
+						<span>
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$value[aid]">{lang edit}</a></label>
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$value[aid]" id="article_delete_$value[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a></label>
+						</span>
+						<!--{/if}-->
+					</div>
+				</li>
+			<!--{/loop}-->
+			</ul>
+			<!--{if $list['multi']}--><div class="pgs  cl" style="box-shadow:none;">{$list['multi']}</div><!--{/if}-->
+			</div>
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}-->
+		<!--{ad/articlelist/mbm hm/4}-->
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+	</div>
+	<div class="sd">
+		<!--{if $cat[others]}-->
+		<div class="colu  sd_box">
+			<div class="blocktitle title">
+				<span class="titletext" >{lang category_related}</span>
+			</div>
+			<div class="dxb_bc">
+			<ul class="module cl xl xl2 cl">
+				<!--{loop $cat[others] $value}-->
+				<li> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+				<!--{/loop}-->
+			</ul>
+			</div>
+		</div>
+		<!--{/if}-->
+		<div class="sd_ad">
+			<!--[diy=diy9]--><div id="diy9" class="area"></div><!--[/diy]-->
+		</div>
+		<div class="wow_sns sd_box">
+			<!--[diy=diy4]--><div id="diy4" class="area"></div><!--[/diy]-->
+		</div>
+		<div class="new_info sd_box">
+			<!--[diy=diy5]--><div id="diy5" class="area"></div><!--[/diy]-->
+		</div>
+		<div class="hot_pic sd_box">
+			<!--[diy=diy7]--><div id="diy7" class="area"></div><!--[/diy]-->
+		</div>
+		<div class="new_post sd_box">
+			<!--[diy=diy8]--><div id="diy8" class="area"></div><!--[/diy]-->
+		</div>
+	</div>
+</div>
+
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<!--{template common/footer}-->

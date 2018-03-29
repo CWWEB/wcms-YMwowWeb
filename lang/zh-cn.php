@@ -127,7 +127,7 @@ $Vote['Vote34'] = " 小时";
 $Vote['Vote35'] = " 分钟";
 $Vote['CanVoteIn'] = "你可以投票 ";
 $Vote['Earned'] = "获得";
-$Vote['VotePanel'] = "投票面板";
+$Vote['VotePanel'] = "公会聊天";
 $Vote['Vote39'] = "现在登入进行投票！";
 $Vote['Vote40'] = "了解更多！";
 // 完成投票翻译
@@ -452,7 +452,7 @@ $Uns['Uns29'] = "继续";
 $Ind['Ind'] = "下一步";
 $Ind['Ind1'] = "搜索栏";
 $Ind['Ind2'] = "搜索";
-$Ind['Ind3'] = "促销广告";
+$Ind['Ind3'] = "英雄榜";
 $Ind['Ind4'] = "服务器信息: ";
 $Ind['Ind5'] = " 账号服务器 : ";
 $Ind['Ind6'] = " 补丁版本 : ";

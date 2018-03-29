@@ -45,13 +45,13 @@ class DB_Store
         {
             $loginDetails = array("host" => $this->_configuration->getOption("dbHost"), "username" => $this->_configuration->getOption("dbUser"),"password" => $this->_configuration->getOption("dbPass"));
             if($i == 0){
-                $loginDetails["World"] = $this->_configuration->getDBName("World");
+                $loginDetails["World"] = $this->_configuration->getDBName("Worlds");
                 $this->_registerDB(new World_Database($loginDetails)); 
             }elseif($i == 1){
                 $loginDetails["Realm"] = $this->_configuration->getDBName("auth");
                 $this->_registerDB(new Realm_Database($loginDetails));
             }elseif($i == 2){
-                $tmp = $this->_configuration->getDBName("Character");
+                $tmp = $this->_configuration->getDBName("Character_pvp");
                 $loginDetails["Character"] = $tmp[$i-2];
                 $this->_registerDB(new Character_Database($loginDetails));
             }

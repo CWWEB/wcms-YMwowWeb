@@ -1,0 +1,422 @@
+/* -----------------------
+Main CSS file for Discuz! X3.2
+name：xinrui_wow
+Powered by xinrui
+----------------------- */
+.wp{width:994px;}
+#xr_page{background: url("../images/body.jpg") no-repeat center top;}
+a:link,a:visited,a:active{color:#ffb100;}
+a:hover{color:#fff;text-decoration:none;}
+#wp.wp{background:#1a0f08 url(../images/topbot.jpg) 0 0 no-repeat;}
+.ct2,.ct2 .sd{margin:0 !important;}
+
+/* ==========新锐创想头部========*/
+#samplepanel{position:relative;z-index:999;}
+.top_nav{position:absolute;top:0;left:50%;margin-left:-300px;width:800px;z-index:100;}
+.top_nav ul{float:right;height:40px;}
+.top_nav ul{position: relative; -webkit-user-select: none; -moz-user-select: none; user-select: none; z-index: 75; }
+.ie .top_nav ul { z-index: 150; zoom: 1; }
+.top_nav_li{background: url("../images/wow_top_nav_icon.png") repeat-x 0 -200px; color: #8694a1; display: block; float: left;height: 34px; line-height: 34px; padding: 0 0 6px 0; position: relative;}
+.top_nav_li a {color: #00b6ff; text-decoration: none; }
+.top_nav_li a:hover,.top_nav_li a:focus { color: #fff; }
+.top_nav_li a.active { background: #C5C5C5; color: #000;}
+.top_nav_li a{border-left: 1px solid #33373B; display: block; line-height: 34px; padding: 0 1.5em; text-transform: uppercase;}
+.top_nav_li a:hover,.top_nav_li a:focus {background-color: #343434;}
+.top_nav_home { background-position: 0 0; background-repeat: no-repeat; }
+.top_nav_home a {background: url("../images/wow_top_nav_icon.png") no-repeat 0 -40px; border-left: none; display: block; line-height: 33px; height: 33px; padding: 0 0 0 7px; text-indent: -9999px; width: 48px; }
+.top_nav_home a:hover,.top_nav_home a:focus { background-color: transparent; background-position: 0 -80px;}
+.no_login{padding:0 20px;}
+.top_nav_li .no_login a{display:inline;padding:0;border:none;}
+.top_nav_qmenu { background-position: 100% 0; padding: 0 0 6px 0; }
+.top_nav_qmenu a#qmenu {background: url("../images/wow_top_nav_icon.png") repeat-x 100% -40px; color: #fff; margin:0; width:auto; float:none; height:auto; display: block; line-height: 33px; padding: 0 40px 0 1.5em; text-transform: uppercase; }
+.top_nav_qmenu a#qmenu:hover,.top_nav_qmenu a#qmenu:focus {background-position: 100% -80px !important;}
+.top_nav_qmenu a#qmenu.a,.top_nav_qmenu a#qmenu.a:hover,.top_nav_qmenu a#qmenu.a:focus { background-position: 100% -120px !important; }
+.top_nav_ditnav{z-index:999;position:relative;margin-left:-6px;}
+.top_nav_ditnav #diy-tg{height:32px;padding:0 10px;background-position:center center;overflow:hidden;width:70px;display:block;}
+.top_nav_ditnav #diy-tg img{display:none;}
+#diy-tg_menu{right:10px !important;top:28px !important;left:auto !important;width:72px !important;}
+#diy-tg_menu ul{float:none;}
+#diy-tg_menu li{height:22px;line-height:22px;}
+#diy-tg_menu a {display:block;height:22px;line-height:22px;padding:0;background:none;}
+#diy-tg_menu li a:link,#diy-tg_menu li a:visited,#diy-tg_menu li a:active{color:#333;}
+#diy-tg_menu li a:hover{color:#b14e07;}
+#qmenu_menu{color:#b2bac7;background:#343C46;left:50% !important; margin-left:-120px; top: 35px !important; text-align: left; border-radius: 3px; border-top-right-radius: 0; overflow: hidden; border:none;}
+#qmenu_menu .btda{border:none;}
+#qmenu_menu #fjump_menu li {background:#232a31;border-color:#383f47;}
+#qmenu_menu #fjump_menu li .bbda{border-color:#383f47;}
+#qmenu_menu #fjump_menu li p a:link,#qmenu_menu #fjump_menu li p a:visited,#qmenu_menu #fjump_menu li p a:active{color:#94989f;}
+#qmenu_menu #fjump_menu li p a:hover{background:#191f26;color:#fff;}
+#qmenu_menu #fjump_menu #flsrchdiv .px.vm{border:none;background:#232a31;}
+#qmenu_menu ul.nav li a:link,#qmenu_menu ul.nav li a:visited,#qmenu_menu ul.nav li a:active{color:#94989f;}
+
+.hdc{height:135px;padding-top:15px;overflow:hidden;width:1000px;}
+#hd .hdc h2{padding:0;}
+#hd #scbar {width:330px;overflow:hidden;background:none;border:none;height:46px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin-top:50px;}
+#scbar li{float:left;height:36px;overflow:hiden;}
+#scbar_type{width:47px; height:36px; margin-top:5px; text-align:center; color:#707070 !important; line-height:36px; cursor:pointer; background:#fff url(../images/scbar_type.png) no-repeat 43px 17px; position:relative; padding:0 16px 0 0; overflow:hidden; -webkit-border-top-left-radius:3px;-moz-border-top-left-radius:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-bottom-left-radius:3px;border-bottom-left-radius:3px;}
+#scbar_txt{width:200px; height:36px; margin-top:5px; line-height:36px \9; border:0; padding:0 0 0 7px; font-size:14px;color:#707070 !important;border:none;float:left;-webkit-border-top-right-radius:3px;-moz-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-bottom-right-radius:3px;border-bottom-right-radius:3px;}
+#scbar_btn {width:44px; height:46px; margin-left:16px; font-size:0; line-height:0; cursor:pointer; border:0; background:url(../images/mag-glass.png) no-repeat center top;}
+#scbar_txt::-webkit-input-placeholder{color:#ccc;}
+
+
+/* ==========新锐创想导航样式========*/
+#nv{height:84px;background:url(../images/wow_nv.png) no-repeat 0 top;position:relative !important;overflow:visible;top:0 !important;left:0 !important;}
+#nv ul.xr_nv { width: 648px; height: 65px; position: absolute; left: 14px; top: 10px; -moz-user-select: none; -webkit-user-select: none; user-select: none; background: url("../images/menu-tab-baked.jpg") no-repeat; z-index:99;}
+#nv ul.xr_nv li {width: 103px; float: left; height: 65px; background:none;margin:0 !important;}
+#nv ul.xr_nv li a {height:25px;line-height:16px; display: block; float:none;font-size:12px;font-weight:normal; text-align: center; text-transform: uppercase;color: #ffa400;padding: 40px 0 0;}
+#nv ul.xr_nv li.a a,#nv ul.xr_nv li a:hover,#nv ul.xr_nv li.hover a,#nv ul.xr_nv li.hover a:hover {background-image: url("../images/menu-tab-baked.jpg"); background-position:0 0; color:white;text-decoration:none;}
+#nv ul.xr_nv li:nth-child(1) a:hover,#nv ul.xr_nv li:nth-child(1).hover a,#nv ul.xr_nv li:nth-child(1).hover a:hover { background-position: 0 -65px }
+#nv ul.xr_nv li:nth-child(1).a a { background-position: 0 -130px !important }
+#nv ul.xr_nv li:nth-child(2) a:hover,#nv ul.xr_nv li:nth-child(2).hover a,#nv ul.xr_nv li:nth-child(3).hover a:hover { background-position: -104px -65px }
+#nv ul.xr_nv li:nth-child(2).a a { background-position: -104px -130px !important }
+#nv ul.xr_nv li:nth-child(3) a:hover,#nv ul.xr_nv li:nth-child(3).hover a,#nv ul.xr_nv li:nth-child(3).hover a:hover { background-position: -208px -65px }
+#nv ul.xr_nv li:nth-child(3).a a { background-position: -208px -130px !important }
+#nv ul.xr_nv li:nth-child(4) a:hover,#nv ul.xr_nv li:nth-child(4).hover a,#nv ul.xr_nv li:nth-child(4).hover a:hover { background-position: -312px -65px }
+#nv ul.xr_nv li:nth-child(4).a a { background-position: -312px -130px !important }
+#nv ul.xr_nv li:nth-child(5) a:hover,#nv ul.xr_nv li:nth-child(5).hover a,#nv ul.xr_nv li:nth-child(5).hover a:hover { background-position: -416px -65px }
+#nv ul.xr_nv li:nth-child(5).a a { background-position: -416px -130px !important }
+#nv ul.xr_nv li:nth-child(6) a:hover,#nv ul.xr_nv li:nth-child(6).hover a,#nv ul.xr_nv li:nth-child(6).hover a:hover { background-position: -520px -65px }
+#nv ul.xr_nv li:nth-child(6).a a { background-position: -520px -130px !important }
+#nv ul.xr_nv li.nv_more{background:#be560c url("../images/nv_more.png") no-repeat center center;width:20px;height:65px;position:absolute;top:0;right:0;cursor:pointer;display:none;}
+#nv ul.xr_nv li.nv_more:hover{background:#b14e07 url("../images/nv_more.png") no-repeat center center;}
+#hd .p_pop.h_pop{background:#2a160e;border:none; box-shadow:none;}
+#hd .p_pop.h_pop li{float:none !important;display:block;font-weight:normal;padding:0;background:none;}
+#hd .p_pop.h_pop a{padding:8px;border-bottom-color:#3a2015;}
+#hd .p_pop.h_pop a:link,#hd .p_pop.h_pop a:visited,#hd .p_pop.h_pop a:active{color:#a99877;}
+#hd .p_pop.h_pop a:hover{color:#f5ebd1;background:#1b100d;}
+#mu ul{background:#2a160e;}
+#mu ul li a{line-height:32px;margin:0;border:none;}
+#mu ul li a:link,#mu ul li a:visited,#mu ul li a:active{color:#a99877;}
+#mu ul li a:hover{color:#f5ebd1;background:#1b100d;border:none;margin:0;}
+.widthauto #nv,.widthauto #mu{border:none;}
+
+.user_plate {color: #fff;width: 355px; height: 84px; position: absolute; right: -1px; bottom: 1px;background: url("../images/charcard-neutral.jpg") 0 0 no-repeat;}
+.user_plate .xr_no_login{width: 326px; height: 84px; padding:0 0 0 30px; display: block; color: #EEE; font-size: 14px;  position: absolute; bottom:0; right: 0; text-overflow: ellipsis; line-height: 1.4em; z-index:1; }
+.user_plate .xr_no_login:hover{color: #fff; background: url("../images/charcard-neutral.jpg") 1px -84px no-repeat;}
+.user_plate .card_portrait{width:58px; height:58px; display:block; float:right; border:1px solid #c3ff00; background:url(../images/avatar-neutral.jpg) 50% 50% no-repeat; margin-top:7px; margin-right:21px}
+.user_plate .wow_login{display:block; position:absolute; right:50px; top:31px; width:50px; height:42px; background:url(../images/key.png) no-repeat }
+.user_plate .login-msg{display:block; float:left; width:210px; margin-top:18px;  text-shadow:1px 1px 1px #555 }
+.user_plate .login-msg strong{color:#ffb100}
+
+#um{margin:6px 30px 0 40px;height:64px;padding:0;}
+#um .um_info a.avt{display:block;width:62px;height:62px;overflow:hidden;padding:0;border:none;float:right;}
+.um_info a.avt img{padding:0;border:1px solid #c3ff00;width:60px;height:60px;}
+#um .um_info .vwmy,#um .um_info .vwmy a{height:26px;line-height:26px;display:block;padding:0;border:none;}
+#um .um_info .vwmy{padding-left:20px;background-position:0 center;}
+#um .um_info a{border:none;padding:0;height:26px;line-height:26px;margin:0;color:#eee;text-shadow:1px 1px 1px #555;}
+#um .um_info a:hover{background:none;color:#fff;}
+#um .um_info #loginstatus{margin-left:10px;}
+#um .um_info div{width:200px;margin-top:5px;}
+#um .um_info .login_link {text-align:left;}
+#um .um_info .login_link a{margin-right:10px;}
+#um .um_info .login_link a.y{margin:0;}
+#um #umLogin_menu{left:auto !important;right:30px !important;top:74px !important;font-size: 12px;font-weight: normal;padding:12px;width: 300px;z-index: 3;background:#2a160e;border:none;}
+#um .um_op span.pipe{display:none;}
+#um .um_op div a{width:150px;height:30px;}
+#um .um_op div a img{margin-top:0;}
+#um .um_op a{height:30px;line-height:30px;padding:0;overflow:hidden;float:left;width:60px;margin:0 !important;text-align:center;color:#a99877;border:none;}
+#um .showmenu{margin:0;}
+#um .um_op a.new{padding-left:20px;width:40px;background:none !important;}
+#um .um_op a.a{background:none !important;}
+#um .um_info a:hover,#um .um_op a:hover{color:#fff; background:none !important;}
+#myprompt_menu {display:none !important;}
+
+
+/* ==========新锐创想首页样式========*/
+#nv_portal.pg_index #wp{padding-top: 10px; background:url("../images/wp.jpg") no-repeat 0 0;min-height:500px;}
+.frame, .frame-tab{background:none;}
+.xr_portal{background:#1a0f08 url(../images/topbot.jpg) -992px bottom no-repeat;position:relative;}
+.xr_portal:before{ position: absolute; height: 100%; width: 100%; top: 30px; left: 0; background: url("../images/shadow.png") repeat-y; display: block; content: ''; }
+.col1 {width:645px;background:#2a160e url(../images/xr_col1.jpg) 0 300px no-repeat;min-height:800px;position:relative;}
+.portal_slide{margin-left:9px;position:relative;}
+.portal_slide{width:630px;height:300px;overflow:hidden;position:relative;}
+.portal_slide .slidebar {text-align:center;position:absolute; bottom:24px;right:70px;z-index:10;}
+.portal_slide .slidebar li{text-indent:-9999px;overflow:hidden;width:8px;height:8px;background:rgba(42,22,14,0.3);margin-right:5px;display:block;border-radius:8px;float:left;}
+.portal_slide .slidebar li.on{background:rgba(255,177,0,1);}
+.portal_slide .slideshow{position:relative;z-index:9;}
+.portal_slide .slideshow li,.portal_slide .slideshow li a{width:630px;height:300px;overflow:hidden;position:relative;display:block;}
+.portal_slide .slideshow img{display:block;}
+.portal_slide .prev,.portal_slide .next{display: block; position: absolute; height: 24px; width: 24px; background: rgba(255,255,255,0.1) url("../images/slide_btn.png") 0 0 no-repeat; bottom:15px;z-index:10;}
+.portal_slide .prev {background-position: -2px -1px;right:40px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;border: 1px solid rgba(255,255,255,0.2);border-right: 1px solid rgba(255,255,255,0.1);}
+.portal_slide .prev:hover {border: 1px solid rgba(255,255,255,0.4);border-right: 1px solid rgba(255,255,255,0.2);background-position: -2px -27px;background-color: rgba(255,255,255,0.2);}
+.portal_slide .next {background-position: -25px -1px;right:15px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;border: 1px solid rgba(255,255,255,0.2);border-left: 1px solid rgba(255,255,255,0.1);}
+.portal_slide .next:hover {border: 1px solid rgba(255,255,255,0.4);border-left: 1px solid rgba(255,255,255,0.2);background-position: -25px -27px;background-color: rgba(255,255,255,0.2);}
+.portal_slide .mask{height: 300px; width: 630px; position: absolute; top: 0; left: 0; z-index: 30; cursor: pointer; background:url(../images/mask.png) 0 0 no-repeat;}
+.today_focus {padding:0 0 15px 20px;}
+.today_focus li{float:left;height:172px;width:192px;padding-right:15px;}
+.today_focus li a{display:block;}
+.today_focus li .img{width:188px;height:96px;overflow:hidden;border:1px solid #541f09;padding:1px;border-radius:3px;}
+.today_focus li a:hover .img{border-color:#824c06;}
+.today_focus li .img img{width:188px;height:96px;}
+.today_focus li h3{font-size:12px;font-weight:normal;padding-top:10px;height:40px;line-height:20px;}
+.today_focus li .meta{padding-top:5px;}
+.today_focus li .com_link,.newest li .attr .com_link {background: url("../images/blog_icons.gif") repeat scroll -16px -13px;display: inline-block;padding-left: 16px;vertical-align: top;color:#ffb100;}
+.today_focus li .time,.newest li .attr .time{font-size: 12px;margin-left: 10px;color:#855b47;}
+.portal_hot_post{padding:0 20px;}
+.newest li {padding:20px 0;border-bottom:solid 1px #1b100d;border-top:solid 1px #3a2015;}
+.newest li a.newA{padding-left:210px;position:relative;min-height:100px;display:block;}
+.newest li .pic{width:190px;height:100px;overflow:hidden;position:absolute;top:0;left:0;overflow:hidden;border:1px solid #541f09;padding:1px;border-radius:3px;}
+.newest li a:hover .pic{border-color:#cd9000;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.newest li .pic img{width:190px;height:100px;}
+.newest li h3{font-size:18px;margin-bottom:10px;font-weight:normal;line-height:20px;}
+.newest li a:link,.newest li a:visited,.newest li a:active{color:#f5ebd1;}
+.newest li a:hover{color:#fff;text-decoration:none;}
+.newest li .info{color:#a99877;font-size:12px;line-height:20px;}
+.newest li .attr{margin-top:10px}
+.newest li:last-child{border-bottom:none;}
+.xr_load_more{ margin: 20px 0; }
+.xr_load_more .load_more { background-color: #1a0f09;display:block;text-align:center;padding:10px;text-transform:uppercase;}
+.xr_load_more a:link,.xr_load_more a:visited,.xr_load_more a:active{color:#ffb100;}
+.xr_load_more a:hover{color:#fff;}
+
+.col2 {width:305px;padding:20px;position:relative;}
+.sd_ad{margin-bottom:30px;}
+.sd_ad li.first{margin-bottom:30px;}
+.sd_ad li{margin-bottom:10px;}
+.sd_ad li a{display:block;overflow:hidden;border:1px solid #372511;padding:1px;border-radius:5px;box-shadow: 0 0 6px #000000;}
+.sd_ad li a:hover{border-color:#cd9000;}
+.sd_ad li a:hover img,.sd_box a:hover img{filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;}
+.sd_ad img,.sd_box a img{display:block;border-radius:5px;}
+.sd_box {margin-bottom:30px;}
+.sd_box .move-span.temp{margin:0;}
+.sd_box .blocktitle.title{padding:0;border-bottom: 2px solid #552b12; margin-bottom: 6px; padding-bottom: 6px;color: #fef092;font-size: 14px;font-weight: normal;text-transform: uppercase;height:24px;}
+.sd_box .blocktitle.title .titletext{line-height:22px;}
+.wow_sns{margin-bottom:20px;}
+.wow_sns ul{padding:10px 0;}
+.wow_sns li{width:31px;height:31px;overflow:hidden;margin-right:10px;float:left;}
+.new_info li{border-bottom: 1px solid #271b15;color: #71401f;padding: 7px 5px;}
+.new_info li.pic{padding:0;border:none;margin-bottom:10px;}
+.sd_box .pic a{overflow:hidden;border:1px solid #372511;padding:1px;border-radius:5px;display:block;}
+.sd_box .pic a:hover{border-color:#cd9000;}
+.last_update li h3{font-weight:normal;height:30px;line-height:30px;}
+.hot_pic li{width:304px;height:174px;position:relative;overflow:hidden;}
+.hot_pic li h3{font-weight:normal;position:absolute;bottom:2px;left:2px;background:rgba(0,0,0,0.7);width:300px; text-indent:20px;height:40px;line-height:40px;overflow:hidden;}
+.new_post li{border-bottom: 1px solid #271b15; padding:10px 5px;}
+.new_post li h3{height:20px;line-height:20px;overflow:hidden;font-size:12px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;width:305px;color:#ffb100}
+.new_post li p a:link,.new_post li p a:visited,.new_post li p a:active,.new_post li p {color:#71401f;}
+.new_post li p a:hover{color:#fff;}
+
+/* ==========新锐创想论坛样式========*/
+#nv_forum.pg_index #wp.wp{background:#1a0f08 url(../images/forum_bg.jpg) 0 0 no-repeat;}
+#pt{margin:0 auto; width:940px;line-height:20px;height:20px;padding:6px 0;}
+#pt .nvhm{background:none;text-indent:0;width:auto;line-height:20px;}
+#pt .z a, #pt .z em, #pt .z span{height:20px;}
+#pt .z a{line-height:20px;}
+#pt .z em{background:url(../images/flyout-arrows.gif) 3px -117px no-repeat;}
+#pt #an li em {color:#855b47;}
+#nv_forum.pg_index #wp #ct{background:#1a0f08 url(../images/topbot.jpg) -992px bottom no-repeat;position:relative;}
+#nv_forum.pg_index #wp #ct .ct_inner{background:url(../images/bg-index.jpg) 0 0 no-repeat;padding-top:20px;}
+#nv_forum.pg_index #wp #ct .mn{width:645px;}
+#nv_forum.pg_index #wp #ct .sd{width:285px;padding:10px 30px;}
+
+.essence{position:relative;width:930px;margin:0 auto; height: 250px; padding-top: 27px;}
+.essence .title{height:18px;line-height:18px;}
+.essence .title .titletext{color: #f0e29a;font-size: 12px;font-weight:normal;}
+.essence .esMod{width:921px;position:relative;}
+.essence .dxb_bc .esMod .bd{width:921px;}
+.esMod .hd{position:absolute;left:50%;bottom:-20px;margin-left:-40px;}
+.esMod .hd li{float:left;margin-left:10px;width:8px;height:8px;overflow:hidden;border-radius:4px;background:#855b47;text-indent:-9999px;}
+.esMod .hd li.on{background:#ffb100;}
+.esMod .bd ul.es_ul{height:193px;background:url(../images/bt_lite_bg.png) 0 0 repeat-x;}
+.esMod .bd li.es_li{float:left;overflow:hidden;width:310px;height:193px;position:relative;}
+.esMod .bd li.es_li a{display:block;width:310px;height:193px;}
+.esMod .bd li.es_li:nth-child(1) a:hover,.esMod .bd li.es_li:nth-child(4) a:hover,.esMod .bd li.es_li:nth-child(7) a:hover,.esMod .bd li.es_li:nth-child(10) a:hover,.esMod .bd li.es_li:nth-child(13) a:hover{background:url(../images/bt_lite_bg.png) 0 -250px repeat-x;}
+.esMod .bd li.es_li:nth-child(2) a:hover,.esMod .bd li.es_li:nth-child(5) a:hover,.esMod .bd li.es_li:nth-child(8) a:hover,.esMod .bd li.es_li:nth-child(11) a:hover,.esMod .bd li.es_li:nth-child(14) a:hover{background:url(../images/bt_lite_bg.png) -310px -250px repeat-x;}
+.esMod .bd li.es_li:nth-child(3) a:hover,.esMod .bd li.es_li:nth-child(6) a:hover,.esMod .bd li.es_li:nth-child(9) a:hover,.esMod .bd li.es_li:nth-child(12) a:hover,.esMod .bd li.es_li:nth-child(15) a:hover{background:url(../images/bt_lite_bg.png) -620px -250px repeat-x;}
+.esMod .esInfo{padding: 45px 20px 0 30px;height: 72px;line-height:18px;overflow: hidden;text-overflow: ellipsis;color:#004e8a;}
+.esMod .bd li.es_li a .esP{font-size: 11px;left: 35px;line-height: 150%;position: absolute; top: 125px; width: 235px;color:#613916;}
+.esMod .bd li.es_li a .esP .char {color: #000;font-size: 12px;font-weight: bold;}
+.esMod .next,.esMod .prev{display:block;width:38px;height:67px;display:block;position:absolute;background:url(../images/bt_lite_ctrl.gif) no-repeat;top:50%;margin-top:-33px;z-index:99;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;cursor:pointer;}
+.esMod:hover .prev,.esMod:hover .next{}
+.esMod .prev.prevStop,.esMod .next.nextStop{display:none;}
+.esMod .prev{background-position:0 0;left:-32px;}
+.esMod .next{background-position:-48px 0;right:-41px;}
+.esMod .prev:hover{background-position:0 -67px;}
+.esMod .next:hover{background-position:-48px -67px;}
+
+.xr_grid{border:none !important;padding:15px !important;background:none;}
+.xr_grid .slidebox_grid{margin:0;border:none;}
+.xr_grid .slidebox_grid .slideouter{border:none !important;}
+.xr_grid .slidebox_grid .slideswitch{width:6px !important;height:6px !important;overflow:hidden;text-indent:-9999px !important;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:0 2px;}
+.xr_grid .slidebox_grid div:nth-last-child(1) {right:10px;}
+#category_grid.xr_grid h4{background:none;color:#f0e29a;font-size: 12px;font-weight:normal;line-height:22px; padding-left:10px;height:22px;width:auto;margin-bottom:10px;transition: 400ms; -webkit-transition: 400ms; -moz-transition: 400ms;}
+.category_l1, .category_l2, .category_l3{background:none;}
+#category_grid.xr_grid h4 span{display:none;}
+#category_grid.xr_grid .subjectbox,#category_grid.xr_grid .replaybox{border-right:solid 1px #3a2015;}
+.category_newlist{padding-bottom:0;padding-top	:0;}
+.category_newlist li{line-height: 150%;margin-bottom:2px;overflow: hidden;background:none;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;}
+.subjectbox,.replaybox,.hottiebox{height:260px;}
+.category_newlist li a:hover{color:#fff;transition: 300ms; -webkit-transition: 300ms; -moz-transition: 300ms;text-decoration:none;}
+#nv_forum.pg_index #wp #ct .new_post li h3{width:285px;}
+
+.xr_forum_box,#online.oll,.ct_inner .lk{margin:0 20px 20px 25px}
+.xr_forum_tit h2{color: #71330e;font: 20px/41px arial;}
+.xr_forum_tit a:link,.xr_forum_tit a:visited,.xr_forum_tit a:active{color:#71330e;}
+.xr_forum_tit a:hover{color:#fff;}
+.xr_forum_tit .o{margin:15px 10px 0 0;cursor:pointer;}
+.xr_forum_tit .y{margin-top:10px;color: #71330e;}
+.xr_forum_box .forum_area{background-color: rgba(0, 0, 0, 0.25); color:#d3ac6b; border-radius:6px;padding:10px;height:90px;margin:2px;}
+.oll,.lk{background-color: rgba(0, 0, 0, 0.25); color:#d3ac6b; border-radius:6px;padding:10px;margin:2px;}
+.xr_forum_box .fl_tb .fl_g{padding:3px 0}
+.xr_forum_box .fl_tb .fl_g dl{margin-left:50px !important;}
+.xr_forum_box .fl_tb .fl_g dt{font-size: 14px;font-weight:bold;}
+.xr_forum_box .fl_tb .fl_g dt em{font-size:12px;margin-left:8px;}
+.xr_forum_box .fl_tb .fl_g  dd {padding-top:4px;}
+.xr_forum_box .fl_tb .fl_g  dd em{margin-right:10px;}
+.xr_forum_box .fl_tb .fl_row td{border:none;}
+.xr_forum_box .fl_tb .fl_icn_g{width:50px !important;height:50px !important;overflow:hidden;border-radius:25px;}
+.xr_forum_box .fl_tb .fl_icn_g img{width:50px;height:50px;}
+.xr_forum_box .forum_area:hover,.xr_forum_box .forum_area:hover a {color:#fff !important;}
+.ct_inner .lk p{color:#d3ac6b;}
+.ct_inner .lk .lk_logo{border:none;}
+.single_forum,.single_forum p.xg2{color:#d3ac6b;}
+.single_forum .fl_tb .fl_row td{border-top:solid 1px #130b06;}
+
+/* ==========新锐创想帖子列表样式========*/
+#nv_forum.pg_forumdisplay .bm,#nv_forum.pg_forumdisplay .bm_h,.tl .ts th, .tl .ts td{background:none;border:none;}
+#nv_forum.pg_forumdisplay .mn{padding:10px 20px;}
+#nv_forum.pg_forumdisplay .tl th,#nv_forum.pg_forumdisplay .tl td,#nv_forum.pg_forumdisplay .tl .ts th,#nv_forum.pg_forumdisplay .tl .ts td,#nv_forum.pg_forumdisplay .tl .th{border-bottom:solid 1px #261913;background:none;}
+#nv_forum.pg_forumdisplay .tl tr:hover th,#nv_forum.pg_forumdisplay .tl tr:hover td{background:#261307;}
+.listTit h1{color: #f5ebd1 !important;font-size: 20px;font-weight: normal;letter-spacing: -0.05em;}
+.listTit *,.listTit .y *{color:#775e3a !important;}
+.xr_list .xr_forum_box{background:#2a160e;padding:10px 20px; margin:0 0 10px 0 !important;}
+.listTit .pbn {padding-top:4px;}
+.xr_list #thread_types li a{background:#2b1507;border:none;}
+.xr_list #thread_types li a:link,.xr_list #thread_types li a:visited,.xr_list #thread_types li a:active{color:#775e3a;}
+.xr_list #thread_types li a:hover{color:#ffb100;}
+.xr_list #thread_types .num{background:#000;color:#775e3a !important;}
+.xr_list #thread_types li.a a{color:#ffb100 !important;background:#462518;}
+.xr_list #threadlist .th{padding:0;background:#261307;}
+.xr_list #atarget{color:#775e3a;}
+.xr_list .tl th em,.xr_list .tl th em a:link,.xr_list .tl th em a:visited,.xr_list .tl th em a:active{color:#f4dbac;}
+.xr_list .tl th em a:hover{color:#fff;}
+.xr_list #threadlisttableid .by a:link,.xr_list #threadlisttableid .by a:visited,.xr_list #threadlisttableid .by a:active,.xr_list #threadlisttableid .num em{color:#643416;}
+.xr_list #threadlisttableid .by a:hover{color:#fff;}
+#nv_forum.pg_forumdisplay .xr_list #autopbn{background:#000;}
+.xr_list #f_pst{background:#2a160e;padding:10px;}
+.xr_list #f_pst h2{height:30px;}
+.xr_list #f_pst .tedt{border:none;}
+.xr_list #f_pst .tedt .area,.xr_list #f_pst .tedt .area textarea.pt,.xr_list #f_pst .tedt .bar .fpd{background:#3a2015;}
+.xr_list #f_pst .tedt .bar{padding:0;border-color:#2a160e;}
+.xr_list #fastpostsubmit,.xr_list #subject,.xr_list #typeid_fast_ctrl,.xr_list .txt.px.vm,#typeid_fast_ctrl_menu{border:none;background:#3a2015 !important;}
+.xr_list .pg a.prev{background:#2b1507 url(../images/prev.gif) center center no-repeat;width:36px;}
+.xr_list #pgbtn a{border:none;box-shadow:none;background:#000;}
+.xr_list .threadpretd{border:none !important;background:#2a160e !important;}
+.xr_list .threadpretd td{background:#2a160e !important;}
+.xr_list .threadpretd .xld.xlda dl{border-bottom:solid 1px #3a2015;}
+
+/* ==========新锐创想帖子列表页面图片模式========*/
+.xr_waterfall{width:990px;overflow:hidden;}
+.xr_waterfall #waterfall{width:1000px !important;height:auto !important;}
+.xr_waterfall .waterfall{margin:0;}
+.xr_waterfall .waterfall li{border-top:none;float: left;height:250px;padding: 10px 9px 0 10px;width: 220px !important;margin:0;background:none;position:relative !important; top:auto !important; left:auto !important;padding-bottom:6px;}
+.xr_waterfall .waterfall li:hover{background:#341e0f;}
+.xr_waterfall .waterfall .c,.xr_waterfall .waterfall h3,.xr_waterfall .waterfall .desc,.xr_waterfall .waterfall .auth{padding:0;border:none;background:none;}
+.xr_waterfall .waterfall .c{width:220px;height:160px;overflow:hidden;}
+.xr_waterfall .waterfall .c img{width:220px;height:160px;}
+.xr_waterfall .waterfall .c .nopic{height:160px !important; background:#341e0f url(../images/xr_nophototiny.png) center center no-repeat !important;}
+.xr_waterfall .waterfall h3{margin-top:4px;font-size:12px;font-weight:normal;height:30px;line-height:30px;width:220px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:bold;}
+.xr_waterfall .desc .time{line-height:22px;color:#775e3a;}
+.xr_waterfall .desc .time a{color:#775e3a !important;}
+.xr_waterfall .desc .time span{width:auto;float:left;color:#775e3a !important}
+.xr_waterfall .desc cite{padding-top:5px;color:#775e3a;padding-top:5px;display:block;}
+.xr_waterfall .desc cite em{color:#775e3a;}
+
+/* ==========新锐创想帖子内容样式========*/
+#nv_forum.pg_viewthread #ct.wp{margin:15px auto;}
+.xr_forum_view #pgt,.xr_forum_view .xi2.mbm.pbm.bbs{border-bottom:none !important;padding:0 25px;}
+#visitedforums_menu{display:none !important;}
+.xr_forum_view #modmenu .pipe,.xr_forum_view #modmenu a:link,.xr_forum_view #modmenu a:visited,.xr_forum_view #modmenu a:active,
+.xr_forum_view .xi2.mbm.pbm.bbs .pipe,.xr_forum_view .xi2.mbm.pbm.bbs a:link,.xr_forum_view .xi2.mbm.pbm.bbs a:visited,.xr_forum_view .xi2.mbm.pbm.bbs a:active{color:#643416;}
+.xr_forum_view #modmenu a:hover,.xr_forum_view .xi2.mbm.pbm.bbs a:hover{color:#fff;}
+#modmenu {margin:0 25px;}
+.xr_forum_view #postlist .pls,.xr_forum_view #postlist .plc{background:none;border:none;}
+.xr_forum_view .vwthd h1.ts{font-size:24px;color:#F3E6D0;font-weight:normal;}
+.xr_post_floor {padding:20px 25px; background:url(../images/post_bg.jpg) center top no-repeat;}
+.xr_forum_view *{border:none !important;}
+.xr_forum_view .ad td{height:30px;}
+.xr_forum_view .pls .avatar img{background:#643414;padding:5px;}
+.xr_forum_view .pipe{color:#261913;}
+.xr_forum_view #p_btn a,.xr_forum_view #p_btn a i{background:#261913;}
+.xr_forum_view .attach_nopermission{background:#261913;}
+.xr_forum_view .pgbtn,.xr_forum_view .pgs.mtm.mbm.cl{margin:0 25px;}
+.xr_forum_view .pgbtn .bm_h{background:#261913;box-shadow:none;}
+.xr_forum_view .pgbtn .bm_h:hover{background:#4e2f1b;}
+#f_pst,#f_pst .pls{background:none;}
+#f_pst .tedt .area,#f_pst .tedt .pt,#f_pst .tedt .bar,.xr_forum_view #f_pst .txt.px.vm{background:#261913;}
+#f_pst .tedt .bar {background:#261913;}
+#f_pst #fastpostsubmit{background:#261913;padding:10px;box-shadow:none;height:40px;}
+#f_pst #fastpostsubmit:hover{background:#4e2f1b;}
+
+/* ==========新锐创想分页样式========*/
+.pg a, .pg strong, .pgb a, .pg label{background:#2b1507;color:#d3ac6b;border:none;}
+.pg a:hover,.pgb a:hover{background:#4e2f1b;color:#fff;}
+.pgb a,.pg a{padding:0 12px;}
+.pgb a.nxt,.pg a.nxt{background-image:none;}
+
+/* ==============新锐创想资讯列表页 ============== */
+#nv_portal.pg_list .mn,#nv_portal.pg_view .mn{width:595px;padding:10px 25px;background:#2a160e url(../images/xr_col1.jpg) left top no-repeat;min-height:800px;position:relative;margin:0;}
+#nv_portal.pg_list .sd,#nv_portal.pg_view .sd{width:305px;padding:0 20px;position:relative;}
+#nv_portal.pg_list #ct{position:relative;}
+#nv_portal.pg_list #ct:before{position: absolute; height: 100%; width: 100%; top: 30px; left: 0; background: url("../images/shadow.png") repeat-y; display: block; content: '';}
+.xr_article_list .title {padding:0;}
+.xr_article_list .title h1{color:#ffb100; font-size:20px;font-weight:normal;}
+.xr_article_list .title .post_btn{font-size:12px;font-weight:normal;padding-left:20px;background: url("../images/add.png") 0 center no-repeat;}
+.xr_article_list .subMenu{padding:10px 0;}
+.xr_article_list .subMenu .pipe{display:none;}
+.xr_article_list .subMenu a{display: inline-block;vertical-align: middle;background:rgba(0,0,0,0.25);height:24px;line-height:24px;padding:0 10px;margin-right:10px;}
+.xr_article_list .pg a,.xr_article_list .pg strong,.xr_article_list .pgb a,.xr_article_list .pg label{float:none;display:inline-block;}
+.xr_article_list .xld li{padding:20px 0 20px 220px;position:relative;min-height:140px;_height:140px;background:url(../images/li.png) left top repeat-x;}
+.xr_article_list .xld li.nopic{padding-left:0;min-height:108px;_height:108px;}
+.xr_article_list .xld li .atc{width:200px;height:120px;display:block;border:1px solid #541f09;padding:1px;border-radius:3px;position:absolute;top:20px;left:0;margin:0;}
+.xr_article_list .xld li .atc img{width:200px;height:120px;max-height:inherit;max-width:inherit;border:none;padding:0;}
+.xr_article_list .xld li:hover .atc{border-color:#cd9000;}
+.xr_article_list .xld li:hover .atc img{filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.xr_article_list .xld li h3{font-size:18px;font-weight:normal;}
+.xr_article_list .xld li h3 a:link,.xr_article_list .xld li h3 a:visited,.xr_article_list .xld li h3 a:active{color:#f5ebd1;}
+.xr_article_list .xld li h3 a:hover{color:#fff;}
+.xr_article_list .xld li .info{padding:10px 0;line-height:18px;color:#a99877;}
+.xr_article_list .attr{color:#855b47;}
+.xr_article_list .attr .pipe{color:#3d291f;}
+.xr_article_list .attr a:link,.xr_article_list .attr a:visited,.xr_article_list .attr a:active{color:#855b47;}
+.xr_article_list .pg{float:none;text-align:center;padding:30px 0;background:url(../images/li.png) left top repeat-x;}
+.xr_article_list .pg a,.xr_article_list .pg strong,.xr_article_list .pgb a,.xr_article_list .pg label{float:none;display:inline-block;}
+.rss {padding-left:20px;background:url("../images/xr_rss.png") left center no-repeat;}
+
+/* ==============新锐创想资讯内容页 ============== */
+.xr_vw{width:595px;overflow:hidden;}
+.xr_vw .h .ph{font-size:28px;color:#ffb100}
+.xr_vw .h p *{font-size:12px;color:#775e3a !important;}
+.xr_vw .h,.xr_vw .s{border-color:#3a2015;}
+.xr_vw .d {color:#a99877;font-size:14px;}
+.xr_vw .d img{max-width:595px;}
+.vw .o{border-color:#3a2015}
+.vw .o * {font-size:12px;color:#775e3a !important;}
+.vw .o a:link,.vw .o a:visited,.vw .o a:active{color:#775e3a;}
+#nv_portal .vw .h, #nv_portal .vw .s, #nv_portal .vw .d, #nv_portal .vw .o, #nv_portal .vw .pren{margin-left:0 !important;margin-right:0 !important;}
+#nv_portal .vw .s{font-size:12px;line-height:20px;color:#a99858;}
+#comment{border:none;}
+#comment,#comment .bm_h{background:#1a0f08;}
+#comment .bm_h{border-color:#2a160e;}
+#comment .tedt {border-color:#2a160e;}
+#comment .tedt .area{background:#3a2015;}
+#comment .tedt .area #message{background:#3a2015;}
+#comment #cform .txt.px.vm{background:#3a2015;border:none;}
+#comment #cform .ptn{height:40px;}
+#comment #cform #commentsubmit_btn{background:#3a2015;padding:6px 20px;border:none;box-shadow:none;height:auto;float:right;color:#ffb100;}
+
+
+/* ==========新锐创想尾部样式========*/
+#ft{border:none;color:#552c09;padding-top:20px;border-top:1px solid #20140d;margin-top:30px;}
+#ft p .pipe{color:#552c09;}
+#ft a:link,#ft a:visited,#ft a:active{color:#552c09;}
+#ft a:hover{color:#fff;}
+
+
+#wp .ct2_a,.pg_collection #ct,#wp .ct3_a,#nv_group.pg_index #ct,#nv_forum.pg_guide .boardnav,#nv_member.pg_register .mn{margin:10px;background:#fff;}
+.ct2_a a,.pg_collection #ct a,.ct3_a a,#nv_group.pg_index #ct .mn a,#nv_forum.pg_guide .boardnav a,#fwin_login a{color:#666;}
+.ct2_a a:hover,.pg_collection #ct a:hover,.ct3_a a:hover,#nv_group.pg_index #ct .mn a:hover{color:#a45729;}
+.pg_collection #ct .tb .o a{color:#fff;}
+#nv_group.pg_index #ct,#nv_group.pg_group .ct2{margin:10px !important;}
+#nv_group.pg_index #ct .mn,#nv_group.pg_group .ct2 .mn{width:740px;}
+

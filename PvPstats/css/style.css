@@ -1,0 +1,152 @@
+body {
+  padding-top: 30px;
+}
+
+.nav li a {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.dropdown-menu > li > a {
+  color: #888;
+}
+
+@media (min-width: 768px) {
+  .navbar-center {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+  }
+}
+
+.nohover:hover { color: #888 !important; }
+
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    overflow-y: auto; !important
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+    overflow-y: auto !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+}
+
+.main-title {
+  padding: 20px 15px 10px;
+  text-align: center;
+}
+
+#logo {
+  margin: auto;
+  max-height: 200px;
+}
+
+#logo_img {
+  margin: auto;
+  height: 200px;
+}
+
+#stats_info {
+  margin: 5px auto auto;
+  color: white;
+}
+
+#stats_info form {
+  display: inline;
+  color: black;
+}
+
+#stats_info form select {
+  text-align: center;
+}
+
+.score-faction-container {
+  max-width: 270px;
+  margin: auto;
+  margin-bottom: 5px;
+  height: 37px;
+}
+
+.score-container {
+  overflow: hidden;
+
+  max-width: 270px;
+  max-height: 417px;
+
+  margin: auto;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.score-container,
+#bg-table-container {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table td {
+  max-width: 115px;
+  overflow: hidden;
+}
+
+table a:not(.btn), .table a:not(.btn) {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn-xs {
+  margin-top: 5px;
+}
+
+#bg-table th,
+.hover-pointer {
+  cursor: pointer;
+}
+
+.form-control {
+  display: inline-block;
+}
+
+.top100 {
+  border: 1px solid yellow;
+}
+
+#footer {
+  margin-top: 40px;
+}

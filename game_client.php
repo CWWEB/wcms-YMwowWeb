@@ -140,15 +140,15 @@ _gaq.push(['_trackPageLoadTime']);
 </div>
 </th>
 <td class="download win">
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-NA-en_US"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-NA-es_MX"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link" id="win-wow-full-EU-en_GB"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-EU-es_ES"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-EU-de_DE"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-EU-fr_FR"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-EU-ru_RU"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-KR-ko_KR"><span class="icon"></span> Windows</a>
-<a href="http://pan.baidu.com/s/1dFOKdYL" class="link hidden" id="win-wow-full-TW-zh_TW"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-NA-en_US"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-NA-es_MX"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link" id="win-wow-full-EU-en_GB"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-EU-es_ES"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-EU-de_DE"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-EU-fr_FR"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-EU-ru_RU"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-KR-ko_KR"><span class="icon"></span> Windows</a>
+<a href="http://pan.baidu.com/s/1qYrt440" class="link hidden" id="win-wow-full-TW-zh_TW"><span class="icon"></span> Windows</a>
 </td>
 <td class="download mac">
 <a href="http://pan.baidu.com/s/1pLm5XVX" class="link hidden" id="mac-wow-full-NA-en_US"><span class="icon"></span> Mac</a>
@@ -280,26 +280,26 @@ _gaq.push(['_trackPageLoadTime']);
 </div>
 </th>
 <td class="download win">
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-NA-en_US"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-NA-es_MX"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link" id="win-wow-starter-EU-en_GB"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-es_ES"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-de_DE"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-fr_FR"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-ru_RU"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-KR-ko_KR"><span class="icon"></span> Windows</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-TW-zh_TW"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-NA-en_US"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-NA-es_MX"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link" id="win-wow-starter-EU-en_GB"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-es_ES"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-de_DE"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-fr_FR"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-EU-ru_RU"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-KR-ko_KR"><span class="icon"></span> Windows</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="win-wow-starter-TW-zh_TW"><span class="icon"></span> Windows</a>
 </td>
 <td class="download mac">
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-NA-en_US"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-NA-es_MX"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link" id="mac-wow-starter-EU-en_GB"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-es_ES"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-de_DE"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-fr_FR"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-ru_RU"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-KR-ko_KR"><span class="icon"></span> Mac</a>
-<a href="http://dlq.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-TW-zh_TW"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-NA-en_US"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-NA-es_MX"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link" id="mac-wow-starter-EU-en_GB"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-es_ES"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-de_DE"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-fr_FR"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-EU-ru_RU"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-KR-ko_KR"><span class="icon"></span> Mac</a>
+<a href="http://wow.ymisc.com/Launcher.exe" class="link hidden" id="mac-wow-starter-TW-zh_TW"><span class="icon"></span> Mac</a>
 </td>
 </tr>
 <tr class="guide wow localized" id="wow-guide-NA">

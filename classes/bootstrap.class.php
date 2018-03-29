@@ -6,7 +6,7 @@ class Configuration
     private $_dbUser = "root";
     private $_dbPass = "wt6655951";
     
-    private $_dbName = array("Character" => array("characters_pvp"),"World" => "world","Realm" => "auth");
+    private $_dbName = array("Character" => array("characters_pvp"),"World" => "world_60","Realm" => "auth");
     
     public function getOption($name)
     {
